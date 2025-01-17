@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cs-nav{
+    background-color: #ffffff;
+    margin-top: 30px;
+}
+
+.cs-sec{
+    /* border: 1px solid red; */
+    display: flex;
+    margin-top: 35px;
+}
+
+
+.cs-tex-sec{
+    /* height: 100vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.cs-tex-sec>p{
+    font-size: 26px;
+    font-weight: 300;
+    color: #000000;
+    text-transform: uppercase;
+    margin-top: 100px;
+}
+
+.cs-tex-sec>h2{
+    font-size: 48px;
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 100px;
+}
+
+.cs-tex-sec>img{
+    width: 32px;
+    height: 64px;
+}
+
+.cs-image-sec{
+    margin-left: auto;
+}
+
+.cs-image-sec>img{
+    width:100%;
+    height:510px;
+}
+.cs-imagesec{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.cs-imagesec1>img{
+    width: 100%;
+    height: 330px;
+
+}
+.cs-imagesec2{
+    width: 100%;
+    height: 300px;
+    background-image: url(assets/images/Rectangle\ 89.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* margin-top: 10px; */
+    align-content: center;
+   
+ 
+}
+
+.cs-imagesec2>p{
+    font-size: 26px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-top: 50px;
+    line-height:30px;
+    padding-left: 50px;
+    padding-right: 40px;
+}
+
+
+@media only screen and (max-width:990px){
+
+    .cs-nav{
+        text-align: center;
+    }
+    .cs-nav{
+        display: flex;
+        gap: 20px;
+        
+    }
+
+    .cs-imagesec1>img{
+        width: 100%;
+        height: 300px;
+    
+    }
+
+    .cs-imagesec2{
+        width: 100%;
+        height: 300px;
+    }
+    .cs-imagesec2>p{
+        font-size: 20px;
+        font-weight: 700;
+        color: #ffffff;
+        margin-top: 50px;
+        line-height:30px;
+        padding-left: 50px;
+        padding-right: 40px;
+    }
+    .cs-image-sec{
+        margin-left: 60px;
+    }
+    .cs-image-sec>img{
+        width:100%;
+        height:484px;
+    }
+   
+}
+
+@media only screen and (max-width:880px){
+
+    
+    .cs-imagesec2{
+        width: 100%;
+        height: 300px;
+    }
+    .cs-imagesec2>p{
+        font-size: 20px;
+        font-weight: 700;
+        color: #ffffff;
+      
+    }
+    
+
+}
+
+@media only screen and (max-width:770px){
+
+    .cs-nav{
+        text-align: center;
+       
+    }
+
+    .cs-nav{
+        display: flex;
+        gap: 70px;
+        
+    }
+
+    
+    .cs-image-sec{
+        margin-left: 10px;
+    }
+    .cs-image-sec>img{
+        width:100% !important;
+        height:484px;
+    }
+    .cs-imagesec1>img{
+        width: 100% ;
+        height: 330px;
+    
+    }
+    
+    .cs-imagesec2{
+        width: 100%;
+        height: 300px;
+    }
+
+
+    .cs-imagesec{
+        margin-top: 20px;
+    }
+}
+
+
+@media only screen and (max-width:580px){
+    
+    .cs-nav{
+        display: flex;
+        gap: 0;
+        
+    }
+}
